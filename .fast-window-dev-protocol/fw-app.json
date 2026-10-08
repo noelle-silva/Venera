@@ -8,7 +8,6 @@
     "windowsExecutable": "venera.exe",
     "icon": "assets/app_icon.png"
   },
-  "displayMode": "default",
   "commands": [],
   "reservedNameExemptions": [
     {
