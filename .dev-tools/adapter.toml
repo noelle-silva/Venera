@@ -65,6 +65,10 @@ reason = "Flutter 自动生成环境导出脚本"
 path = "android/local.properties"
 reason = "Flutter/Android 本地 SDK 路径文件"
 
+[[exceptions]]
+path = "android/app/src/main/java"
+reason = "Flutter pub get 自动生成 Android 插件注册目录"
+
 [quick-build.env]
 PUB_CACHE = "${EUCLI_CF_DEPS_STORE}/pub"
 CARGO_HOME = "${EUCLI_CF_DEPS_STORE}/cargo"
